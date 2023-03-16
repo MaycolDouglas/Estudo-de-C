@@ -67,6 +67,8 @@ em si, que é char (já que é uma letra obviamente), depois a letra e após iss
 
 // Função Getche(), lê caractere do teclado e imprime na tela; arquivo de inclusão = <conio.h>
 
+/*
+
 #include <stdio.h>
 #include <conio.h>
 
@@ -78,6 +80,39 @@ int main() {
 	getch();
 	return 0;
 }
+
+*/
+
+//Programa para calcular a área de um círculo:
+/*
+
+#include <stdio.h>
+#include <conio.h>
+
+int main ()
+{
+	float r, area;
+	printf ("Digite o raio da circunferencia: ");
+	scanf ("%f,&r");
+	area = 3.14*r*r;
+	printf("A area do circulo e igual a:%f\n\n",area);
+	return 0;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
