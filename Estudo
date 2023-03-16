@@ -1,0 +1,87 @@
+//Estudo C
+
+//Introdução :  O menor programa possível em C seria:
+/*
+int main()
+{
+	return 0  // É um programa vazio
+}
+*/
+
+//Um bom exemplo:
+/* main ()
+{
+}
+*/
+
+/*
+Exercícios: 
+* Por que pode-se dizer que C é uma linguagem de nível médio?
+R: Porque ao mesmo tempo que a linguagem é ESTRUTURADA e MODULAR(FUNCTIONS) ela também uma linguagem extremamente tipada e que se liga com a linguagem da máquina
+
+* Fale sobre características positivas e negativas da linguagem C.
+R: Rápido Desempenho, Portátil (Novas Linguagens surgem dela), em contra-partida, extremamente tipada, sua linguagem está proxima a da máquina.
+
+* Descreva a relação existente entre a linguagem C e C++.
+R: A linguagem C ela é imperativamente estruturada e tipada, já a C++, desenvolvida a partir do C, é OO, Orientada a Objetos.
+
+*/
+
+//Primeiro Programa em C:
+
+/*
+#include <stdio.h>
+#include <stdlib.h>
+
+main()
+{
+printf("oi mundo");
+return 0;
+}
+*/
+
+
+//Em C, não existe tipo booleano (lógico) e nem string (cadeia)
+
+//Função Getch: getch(); lê um caractere do teclado;  arquivo de inclusão = <conio.h>
+
+/*
+
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+	char letra;
+	printf("Digite um caracter: ");
+		letra=getch();
+		printf("Caractere digitado: %c", letra); 
+		getch ();
+		return 0;
+}
+//Entendendo o Código: incluimos as bibliotecas, o conio.h foi usado para o getch (leitura da entrada), a variável
+letra=getch() é assim pois a letra recebe a função getch() para a leitura, no printf foi usado %c para definir o tipo da letra
+em si, que é char (já que é uma letra obviamente), depois a letra e após isso o getch() denovo para o retorno do dado.
+
+*/
+
+// Função Getche(), lê caractere do teclado e imprime na tela; arquivo de inclusão = <conio.h>
+
+#include <stdio.h>
+#include <conio.h>
+
+int main() {
+	char letra;
+	printf ("Digite um caracter: ");
+	letra=getche();
+	printf ("\nCaractere digitado: %c", letra);
+	getch();
+	return 0;
+}
+
+
+
+
+
+
+
